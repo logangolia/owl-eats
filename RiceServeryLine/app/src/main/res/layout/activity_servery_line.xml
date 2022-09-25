@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".ServeryLine">
+
+    <TextView
+        android:id="@+id/tWaitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="92dp"
+        android:text="Wait Time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tServery"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bWest"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="168dp"
+        android:text="West"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bNorth"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="88dp"
+        android:text="North"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bWest" />
+
+    <Button
+        android:id="@+id/bSeibel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="76dp"
+        android:text="Seibel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bNorth" />
+
+    <Button
+        android:id="@+id/bSouth"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:text="South"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSeibel" />
+
+
+    <TextView
+        android:id="@+id/tWestTime"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="52dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bWest"
+        app:layout_constraintStart_toEndOf="@+id/bWest" />
+
+    <TextView
+        android:id="@+id/tNorthTime"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bNorth"
+        app:layout_constraintStart_toEndOf="@+id/bNorth" />
+
+    <TextView
+        android:id="@+id/tSeibelTime"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bSeibel"
+        app:layout_constraintStart_toEndOf="@+id/bSeibel" />
+
+    <TextView
+        android:id="@+id/tSouthTime"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bSouth"
+        app:layout_constraintStart_toEndOf="@+id/bSouth" />
+
+    <TextView
+        android:id="@+id/tServery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="92dp"
+        android:text="Servery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
