@@ -1,6 +1,6 @@
 # HackRice12 Project: OwlEats - A Rice Servery App
 
-## Contributors: Micheal Yu, Logan Golia, Bryant Huang, Kevin Ni
+## Contributors: Logan Golia, Micheal Yu, Bryant Huang, Kevin Ni
 
 ### Description:
 This Android app predicts current and future servery line wait time at Rice University.
