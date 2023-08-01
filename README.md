@@ -2,8 +2,6 @@
 
 ## Contributors: Logan Golia, Micheal Yu, Bryant Huang, Kevin Ni
 
-### Link: [https://devpost.com/software/owleats](url)
-
 ### Description:
 This Android app predicts current and future servery line wait time at Rice University.
 
